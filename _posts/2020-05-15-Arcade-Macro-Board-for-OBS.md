@@ -6,7 +6,7 @@ tags: [diy, hardware, software]
 categories: hardware
 twitter: https://twitter.com/senwerks/status/1260202069325049859
 github: https://github.com/senwerks/arcade-macro-keyboard
-image: ArcadeMacroKeyboard2.jpg
+image: 2020-05-15-Arcade-Macro-Board-ArcadeMacroKeyboard1.jpg
 ---
 
 Since the coronapocalypse kicked in and we've all been isolated, I've been doing a lot of Jitsi meets with various groups of friends. We'll get togther for a video chat, and thanks to [OBS (open source broadcasting software)](https://obsproject.com/) we can do things like sharing our screens to each other with our webcam overlayed, or play a game and share that with each other, and lots more. In OBS you set up "Scenes", which are basically layouts of what you want to show each other. One might be your webcam view of yourself placed in the corner of a screen showing your coding IDE, so you can show code you've been working on. Another might be the screen showing a game you're playing. It's the software used by almost every single Twitch/YouTube streamer and live online show, and it's extremely powerful software considering it's completely free.
@@ -29,7 +29,7 @@ Number of buttons doesn't matter, you can do more or less, as long as you have e
 
 ## Wiring Diagram
 
-![Arcade Macro Keyboard Diagram](/images/master/Meta/WiringDiagram.png)
+![Arcade Macro Keyboard Diagram](/images/2020-05-15-Arcade-Macro-Board-WiringDiagram.png)
 
 ## Installation
 
@@ -38,7 +38,7 @@ Number of buttons doesn't matter, you can do more or less, as long as you have e
 - Open up your OBS Settings and go to Hotkeys (this assumes you already have scenes set up)
 - Click on each of your scene's "Switch to Scene" entry, and press one of the buttons on the macro board to insert that button's shortcut combo
 
-![OBS Hotkeys](/images/MappingButtonsInOBS.png)
+![OBS Hotkeys](/images/2020-05-15-Arcade-Macro-Board-MappingButtonsInOBS.png)
 
 - Click OK
 
@@ -52,8 +52,8 @@ Want to use the Arduino IDE instead of VS Code? The .cpp file in /src should wor
 
 3D printed case STL is [included here](https://github.com/senwerks/arcade-macro-keyboard/blob/master/ArcadeMacroKeyboardCase.stl), but it's very basic. Print it top down, no supports or anything needed. I'll probably design a nicer one at some point.
 
-![OBS Hotkeys](/images/ArcadeMacroKeyboard1.jpg)
+![OBS Hotkeys](/images/2020-05-15-Arcade-Macro-Board-ArcadeMacroKeyboard1.jpg)
 
-![OBS Hotkeys](/images/ArcadeMacroKeyboard2.jpg)
+![OBS Hotkeys](/images/2020-05-15-Arcade-Macro-Board-ArcadeMacroKeyboard2.jpg)
 
-![OBS Hotkeys](/images/ArcadeMacroKeyboard3.jpg)
+![OBS Hotkeys](/images/2020-05-15-Arcade-Macro-Board-ArcadeMacroKeyboard3.jpg)
