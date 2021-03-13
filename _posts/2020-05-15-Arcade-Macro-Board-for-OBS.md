@@ -4,8 +4,8 @@ author: Sen
 title: "Arcade Macro Board for OBS"
 tags: [diy, hardware, software]
 categories: hardware
-twitter: https://twitter.com/obsoletenerd/status/1260202069325049859
-github: https://github.com/obsoletenerd/arcade-macro-keyboard
+twitter: https://twitter.com/senwerks/status/1260202069325049859
+github: https://github.com/senwerks/arcade-macro-keyboard
 image: ArcadeMacroKeyboard2.jpg
 ---
 
@@ -15,7 +15,7 @@ One thing streamers do which I thought would also be useful for our private vide
 
 # Arcade Macro Keyboard
 
-Github: [https://github.com/obsoletenerd/arcade-macro-keyboard/](https://github.com/obsoletenerd/arcade-macro-keyboard/)
+Github: [https://github.com/senwerks/arcade-macro-keyboard/](https://github.com/senwerks/arcade-macro-keyboard/)
 
 A macro keyboard made of arcade buttons. Acts like a normal USB keyboard, but each arcade button runs multi-key macros/shortcuts.
 
@@ -29,7 +29,7 @@ Number of buttons doesn't matter, you can do more or less, as long as you have e
 
 ## Wiring Diagram
 
-![Arcade Macro Keyboard Diagram](https://raw.githubusercontent.com/obsoletenerd/arcade-macro-keyboard/master/Meta/WiringDiagram.png)
+![Arcade Macro Keyboard Diagram](/images/master/Meta/WiringDiagram.png)
 
 ## Installation
 
@@ -38,7 +38,7 @@ Number of buttons doesn't matter, you can do more or less, as long as you have e
 - Open up your OBS Settings and go to Hotkeys (this assumes you already have scenes set up)
 - Click on each of your scene's "Switch to Scene" entry, and press one of the buttons on the macro board to insert that button's shortcut combo
 
-![OBS Hotkeys](https://raw.githubusercontent.com/obsoletenerd/arcade-macro-keyboard/master/Meta/MappingButtonsInOBS.png)
+![OBS Hotkeys](/images/MappingButtonsInOBS.png)
 
 - Click OK
 
@@ -46,14 +46,14 @@ Number of buttons doesn't matter, you can do more or less, as long as you have e
 
 Want to use the Arduino IDE instead of VS Code? The .cpp file in /src should work fine as-is (embedded below), or you can visit the [Arcade Macro Keyboard Sketchbook](https://create.arduino.cc/editor/obsoletenerd/15b42f98-5e19-4aff-b1d9-8078c02f6f8f/preview) on Arduino.cc to install the code directly from the browser to your Arduino Nano. 
 
-<script src="https://gist.github.com/obsoletenerd/c0ca22b73e6c3040dd16fd8d8b610856.js"></script>
+<script src="https://gist.github.com/senwerks/c0ca22b73e6c3040dd16fd8d8b610856.js"></script>
 
 ## Photos
 
-3D printed case STL is [included here](https://github.com/obsoletenerd/arcade-macro-keyboard/blob/master/ArcadeMacroKeyboardCase.stl), but it's very basic. Print it top down, no supports or anything needed. I'll probably design a nicer one at some point.
+3D printed case STL is [included here](https://github.com/senwerks/arcade-macro-keyboard/blob/master/ArcadeMacroKeyboardCase.stl), but it's very basic. Print it top down, no supports or anything needed. I'll probably design a nicer one at some point.
 
-![OBS Hotkeys](https://raw.githubusercontent.com/obsoletenerd/arcade-macro-keyboard/master/Meta/ArcadeMacroKeyboard1.jpg)
+![OBS Hotkeys](/images/ArcadeMacroKeyboard1.jpg)
 
-![OBS Hotkeys](https://raw.githubusercontent.com/obsoletenerd/arcade-macro-keyboard/master/Meta/ArcadeMacroKeyboard2.jpg)
+![OBS Hotkeys](/images/ArcadeMacroKeyboard2.jpg)
 
-![OBS Hotkeys](https://raw.githubusercontent.com/obsoletenerd/arcade-macro-keyboard/master/Meta/ArcadeMacroKeyboard3.jpg)
+![OBS Hotkeys](/images/ArcadeMacroKeyboard3.jpg)
