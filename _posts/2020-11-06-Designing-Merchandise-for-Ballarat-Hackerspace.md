@@ -6,7 +6,6 @@ tags: [design, products]
 categories: design
 twitter: https://twitter.com/senwerks/status/1260202069325049859
 github:
-cover: 
 image: 2020-11-06-BHack-Inkscape.png
 ---
 

@@ -1,11 +1,11 @@
 ---
 layout: post
+author: "Sen"
 title: "CSIRAC at Scienceworks Melbourne"
-summary: A visit to CSIRAC (*Commonwealth Scientific and Industrial Research Organisation Automatic Computer*), the fourth computer ever built in the world and the only intact first-generation computer to still be around. Being in the presence of these huge old monsters and knowing that they aren't even really that old really puts in perspective how much technology has changed the world in such a short time. My watch is multiple orders of magnitude more powerful than this room-sized behemoth, and it's not even a smart-watch.
 tags: [retrotech]
 twitter:
 github:
-cover:
+image: CSIRAC-4.jpg
 ---
 
 ## CSIRAC is the only intact first-generation computer surviving anywhere in the world.
