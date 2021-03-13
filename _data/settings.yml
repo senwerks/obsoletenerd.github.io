@@ -7,16 +7,16 @@ disqus:
 google-ID: ''
 
 menu:
-- {name: 'About', path: '_pages', url: 'about.html'}
-- {name: 'Writing', path: '_pages', url: 'writing.html'}
-- {name: 'Contact', path: '_pages', url: 'contact.html'}
+- {name: 'About', path: 'menu', url: 'about.html'}
+- {name: 'Writing', path: 'menu', url: 'writing.html'}
+- {name: 'Contact', path: 'menu', url: 'contact.html'}
 
 # Available social icons are powered by Font Awesome, so you can use any icon that they offer
 social:
 - {icon: 'github', link: 'https://github.com/senwerks'}
 - {icon: 'twitter', link: 'https://twitter.com/senwerks'}
-- {icon: 'linkedin', link: ''}
-- {icon: 'envelope', link: 'mailto:'}
+# - {icon: 'linkedin', link: ''}
+- {icon: 'envelope', link: 'mailto:sen@senwerks.com'}
 # - {icon: 'rss-square', link: '/feed.xml'}
 - {icon: 'rss-square', link: '/rss.xml'}
 
