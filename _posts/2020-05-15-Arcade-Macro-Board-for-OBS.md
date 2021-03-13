@@ -1,11 +1,12 @@
 ---
 layout: post
+author: Sen
 title: "Arcade Macro Board for OBS"
-summary: A macro keyboard for OBS scene-switching (or other keyboard-shortcut shenanigans) made of arcade buttons and an Arduino Pro Micro. Acts like a normal USB keyboard, but each arcade button runs multi-key macros/shortcuts of your choosing. Also useful for racing/flight sims or anywhere else where you need a few big colourful shortcut buttons.
 tags: [diy, hardware, software]
+categories: hardware
 twitter: https://twitter.com/obsoletenerd/status/1260202069325049859
 github: https://github.com/obsoletenerd/arcade-macro-keyboard
-cover: 
+image: ArcadeMacroKeyboard2.jpg
 ---
 
 Since the coronapocalypse kicked in and we've all been isolated, I've been doing a lot of Jitsi meets with various groups of friends. We'll get togther for a video chat, and thanks to [OBS (open source broadcasting software)](https://obsproject.com/) we can do things like sharing our screens to each other with our webcam overlayed, or play a game and share that with each other, and lots more. In OBS you set up "Scenes", which are basically layouts of what you want to show each other. One might be your webcam view of yourself placed in the corner of a screen showing your coding IDE, so you can show code you've been working on. Another might be the screen showing a game you're playing. It's the software used by almost every single Twitch/YouTube streamer and live online show, and it's extremely powerful software considering it's completely free.

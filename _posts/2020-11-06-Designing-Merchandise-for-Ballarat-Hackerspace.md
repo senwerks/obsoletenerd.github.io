@@ -3,10 +3,10 @@ layout: post
 author: "Sen"
 title: "Designing Merchandise for Ballarat Hackerspace"
 tags: [design, products]
+categories: design
 twitter: https://twitter.com/obsoletenerd/status/1260202069325049859
 github:
 cover: 
-categories: design
 image: 2020-11-06-BHack-Inkscape.png
 ---
 
