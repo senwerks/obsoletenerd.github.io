@@ -1,6 +1,6 @@
 # Senwerks.com
 
-This is the repository for the Senwerks.com website.
+This is the repository for the [Senwerks.com](https://senwerks.com) website.
 
 The [Discussions](/senwerks/senwerks.github.io/discussions) section is to ask for help, give suggestions, etc.
 
