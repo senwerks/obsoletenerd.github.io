@@ -1,12 +1,15 @@
 ---
 layout: post
+author: "Sen"
 title: "Designing Merchandise for Ballarat Hackerspace"
-summary: I designed a series of merchandise to help my local non-profit Hackerspace out. Due to me already having an established Redbubble (products on-demand) store set up, it was simply a matter of coming up with a series of designs in Inkscape and then creating the new products on my store. The idea was just to get a variety of merchandise that members/friends could buy for Christmas, and to help spread the branding for the Hackerspace a bit, so I kept it pretty simple.
 tags: [design, products]
 twitter: https://twitter.com/obsoletenerd/status/1260202069325049859
 github:
 cover: 
+categories: design
+image: 2020-11-06-BHack-Inkscape.png
 ---
+
 
 I've been designing random merchandise/products for various car clubs and social clubs for a fair few years now (closer to 20 now I think about it!) but I haven't done any new designs in the last year(ish), so I figured I could come up with some new T-shirt/product designs for my local non-profit Hackerspace. They've done some basic logo shirt runs before, but the up-front costs of doing "proper" print runs makes it difficult to play around with many designs/styles. Considering I already have an [established Redbubble store](https://www.redbubble.com/people/CVIII/shop?asc=u) that's been going for a few years, I decided to offer to create a category for them there and sell them all at cost-price, just to get shirts on bodies and help spread the branding a bit. With Christmas around the corner I kept it pretty simple and just went with a few basic ideas, but being print-on-demand and no up-front cost for us I could do multiple variations/colours for each idea.
 
