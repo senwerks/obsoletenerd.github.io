@@ -1,11 +1,12 @@
 ---
 layout: post
-title: Solar System Android Theme
-summary: A very simple Solar System based theme I created for Android phones a while ago. Not fancy by todays standards, but I still enjoy its simplicity and clean look. Mostly posted here now for the memories/nostalgia.
-tags: [Software] # add tags: Hardware, Software, Woodwork, Projects, Tutorial, 3D-Printing, Game-Dev
+author: "Sen"
+title: "Solar System Android Theme"
+tags: [design, software]
+categories: design
 twitter:
 github:
-cover:
+image: 2018-10-08-screenshot.jpg
 ---
 
 ## RIP Pluto
