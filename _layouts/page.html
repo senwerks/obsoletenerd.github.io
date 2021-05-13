@@ -8,4 +8,7 @@ layout: default
 
 {{ content }}
 
-{{ page.url }}
+{% if page.url == '/menu/about.html' %}
+<a class="twitter-timeline" data-width="615" data-height="400" data-dnt="true" href="https://twitter.com/senwerks?ref_src=twsrc%5Etfw">Tweets by senwerks</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+{% endif %}
+
