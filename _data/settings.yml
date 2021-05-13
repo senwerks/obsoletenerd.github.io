@@ -25,7 +25,7 @@ pagination:
   next_page: 'Newer'
   previous_page: 'Older'
 
-sharing_button_prompt: 'Sharing is caring!'
+sharing_button_prompt: 'Social Sharing:'
 
 related_posts: 'Related Posts:'
 
