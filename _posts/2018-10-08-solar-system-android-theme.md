@@ -6,7 +6,7 @@ tags: [design, software]
 categories: design
 twitter:
 github:
-image: 2018-10-08-screenshot.jpg
+image: 2018-10-08-preview.jpg
 ---
 
 ## RIP Pluto
