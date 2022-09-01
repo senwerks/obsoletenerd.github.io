@@ -22,12 +22,15 @@ The first thing we did is transcribe the text from the coin to a note file, so w
 > Heads Side
 > 
 > B    T    H    A    S    A 
+> 
 > ''   :    :'   '    '.   .:
 > 
 > Tails Side
 > 
 > Outer Ring: 
+> 
 > dvzivzfwzxrlfhrmxlmxvkgzmwnvgrxfolfhrmvcvxfgrlm
+> 
 > urmwxozirgbrm7drwgsc5wvkgs
 > 
 > Inner Ring:
@@ -42,13 +45,17 @@ Throwing the first string in the "Outer Ring" part of our notes and choosing Atb
 
 ![ASD 50c Coin - weareaudaciousinconceptandmeticulousinexecution](/images/2022-09-01-ASD-50c-Coin-3.png)
 
-The result reads: weareaudaciousinconceptandmeticulousinexecution
+The output reads:
+
+> weareaudaciousinconceptandmeticulousinexecution
 
 Throwing in the 2nd string from the same part gives:
 
 ![ASD 50c Coin - findclarityin7widthx5depth](/images/2022-09-01-ASD-50c-Coin-4.png)
 
-The result reads: findclarityin7widthx5depth
+The output reads:
+
+> findclarityin7widthx5depth
 
 The first part is a reference to the ASD "Values", as seen [on their website](https://www.asd.gov.au/about/values). The second part is obviously a clue for the next puzzle.
 
@@ -61,15 +68,24 @@ I translated it in our notes to show that the symbols could now either mean "C B
 Next we spent a while trying to figure out what "find clarity in 7 width x 5 depth" means. Obviously referring to some kind of matrix/grid, and there were multiple rabbit holes there to do with mathetmatical matrix puzzles and grid based ciphers. My mate and I here both managed to solve this one at the same time using 2 very different methods, which I thought was pretty cool... he was coding up a python script that organised the letters and I was sitting in VS Code manually copy/pasting chunks of the string into rows/columns. We both came up with this though:
 
 > bgoamvo
+> 
 > eiatsir
+> 
 > lngttne
+> 
 > ogrergx
+> 
 > nteaifc
 > 
+>  
 > ecaieoa
+> 
 > lekfnr5
+> 
 > lwefchd
+> 
 > eeaeee7
+> 
 > nmdrxx5
 
 ... which if read as columns, reads: "belongingtoagreatteamstrivingforexcellencewemakeadifferencexorhexa5d75" or "Belonging to a great team striving for excellence we make a difference XOR HEX a5d75".
@@ -78,9 +94,9 @@ Clearly the "XOR HEX a5d75" part is the clue, and I know what a XOR gate is... b
 
 ![ASD 50c Coin - findclarityin7widthx5depth](/images/2022-09-01-ASD-50c-Coin-6.png)
 
-That gives us the output:
+The output reads:
 
-'''
+```
 0x46, 0x6F, 0x72, 0x20, 0x37, 0x35, 0x20, 0x79, 0x6E, 0x61, 0x72, 0x73, 0x20, 0x74, 0x68, 0x65, 
 0x20, 0x41, 0x75, 0x73, 0x74, 0x72, 0x61, 0x6C, 0x69, 0x61, 0x6E, 0x20, 0x53, 0x69, 0x67, 0x6E, 
 0x61, 0x6C, 0x73, 0x20, 0x44, 0x69, 0x72, 0x65, 0x63, 0x74, 0x6F, 0x72, 0x61, 0x74, 0x65, 0x20, 
@@ -93,13 +109,13 @@ That gives us the output:
 0x20, 0x61, 0x72, 0x65, 0x61, 0x20, 0x62, 0x65, 0x74, 0x77, 0x65, 0x65, 0x6E, 0x20, 0x74, 0x68, 
 0x65, 0x20, 0x64, 0x69, 0x66, 0x66, 0x69, 0x63, 0x75, 0x6C, 0x74, 0x20, 0x61, 0x6E, 0x64, 0x20, 
 0x74, 0x68, 0x65, 0x20, 0x69, 0x6D, 0x70, 0x6F, 0x73, 0x73, 0x69, 0x69, 0x6C, 0x65, 0x2E, 
-'''
+```
 
 Throw that back into Cyberchef again, and we get the final answer to all the puzzles:
 
 ![ASD 50c Coin - findclarityin7widthx5depth](/images/2022-09-01-ASD-50c-Coin-7.png)
 
-Output reads:
+The output reads:
 
 > "For 75 ynars the Australian Signals Directorate has brought together people with the skills, adaptability and imagination to operate in the slim area between the difficult and the impossiile."
 
