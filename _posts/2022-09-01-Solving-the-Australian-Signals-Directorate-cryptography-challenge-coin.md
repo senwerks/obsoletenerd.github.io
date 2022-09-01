@@ -4,7 +4,7 @@ author: Sen
 title: "Solving the Australian Signals Directorate cryptography challenge coin"
 tags: []
 categories: hacktheplanet
-twitter: https://twitter.com/senwerks/status/1416976612470394882
+twitter: https://twitter.com/senwerks/status/1565263499650949120
 github: 
 image: 2022-09-01-ASD-50c-Coin-0.jpg
 ---
@@ -65,7 +65,7 @@ At this point I figured out the dots on the Heads side of the coin could be some
 
 I translated it in our notes to show that the symbols could now either mean "C B F A E D" or "3 2 6 1 5 4". My mate noted that the letters above each Braille symbol, when re-ordered into numerical order based on those Braille numbers before, spells out ATBASH... oh wait, we already figured that puzzle out (thanks Cyberchef, I love you).
 
-Next we spent a while trying to figure out what "find clarity in 7 width x 5 depth" means. Obviously referring to some kind of matrix/grid, and there were multiple rabbit holes there to do with mathetmatical matrix puzzles and grid based ciphers. My mate and I here both managed to solve this one at the same time using 2 very different methods, which I thought was pretty cool... he was coding up a python script that organised the letters and I was sitting in VS Code manually copy/pasting chunks of the string into rows/columns. We both came up with this though:
+Next we spent a while trying to figure out what "find clarity in 7 width x 5 depth" means. Obviously referring to some kind of matrix/grid, and there were multiple rabbit holes there to do with mathematical matrix puzzles and grid based ciphers. My mate and I here both managed to solve this one at the same time using 2 very different methods, which I thought was pretty cool... he was coding up a python script that organised the letters and I was sitting in VS Code manually copy/pasting chunks of the string into rows/columns. We both came up with this though:
 
 > bgoamvo
 > 
@@ -77,6 +77,7 @@ Next we spent a while trying to figure out what "find clarity in 7 width x 5 dep
 > 
 > nteaifc
 > 
+> - 
 >  
 > ecaieoa
 > 
@@ -88,7 +89,7 @@ Next we spent a while trying to figure out what "find clarity in 7 width x 5 dep
 > 
 > nmdrxx5
 
-... which if read as columns, reads: "belongingtoagreatteamstrivingforexcellencewemakeadifferencexorhexa5d75" or "Belonging to a great team striving for excellence we make a difference XOR HEX a5d75".
+... which if read as columns instead of rows (each chunk being a "paragraph"), reads: "belongingtoagreatteamstrivingforexcellencewemakeadifferencexorhexa5d75" or "Belonging to a great team striving for excellence we make a difference xor hex a5d75".
 
 Clearly the "XOR HEX a5d75" part is the clue, and I know what a XOR gate is... but I didn't realise there was also a "XOR Cipher" until doing some more web searching (again, not an expert). My search came up with the Wikipedia page about XOR Ciphers, and an example, but more helpfully came up with this ["XOR of two hexadecimal strings" tool](https://tomeko.net/online_tools/xor.php?lang=en) right on the first page. In VS Code I repeated the "a5d75" key until it was the same length as the source text (as per the Wikipedia example) and plugged them into the tool:
 
@@ -119,8 +120,10 @@ The output reads:
 
 > "For 75 ynars the Australian Signals Directorate has brought together people with the skills, adaptability and imagination to operate in the slim area between the difficult and the impossiile."
 
-Yes, there's a typo there... I assume that comes from a typo earlier in our processes, but I left it here to show exactly how it all came out.
+Yes, there's some typos there... I assume that comes from typos earlier in our processes, but I left it here to show exactly how it all came out.
 
-It was a fun series of puzzles, but nowhere near the complexity of a lot of those shared via DEFCON/etc (most of which I can get a few steps into then my brain explodes and I go drink a bottle of sake). I can't imagine this was difficult for anyone actually in the industry, so I assume all the media hype about "solve this and you could get a job as a spy!" is just the usual media bullshit... or Cyberchef and basic web searches has made puzzles like this as obsolete as me :) 
+Conclusion time...
+
+It was a fun series of puzzles, but nowhere near the complexity of a lot of those shared via DEFCON/etc (most of which I can get a few steps into then my brain explodes and I go drink a bottle of sake). I can't imagine this was difficult for anyone actually in the industry either, so I assume all the media hype about "solve this and you could get a job as a spy!" is just the usual media bullshit... or Cyberchef and basic web searches has made puzzles like this as obsolete as me :)
 
 Still, I enjoyed it, and while doing all of the above I managed to get through the 2 hour queue on the Australian Mint web store and snag myself a physical copy of the coin itself, so that's cool too.
