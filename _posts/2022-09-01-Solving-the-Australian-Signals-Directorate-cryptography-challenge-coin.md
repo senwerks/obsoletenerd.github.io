@@ -19,25 +19,24 @@ The coin itself looks like this:
 
 The first thing we did is transcribe the text from the coin to a note file, so we had it copy-pastable:
 
-> Heads Side
-> 
-> B    T    H    A    S    A 
-> 
-> ''   :    :'   '    '.   .:
-> 
-> Tails Side
-> 
-> Outer Ring: 
-> 
-> dvzivzfwzxrlfhrmxlmxvkgzmwnvgrxfolfhrmvcvxfgrlm
-> 
-> urmwxozirgbrm7drwgsc5wvkgs
-> 
-> Inner Ring:
-> bgoamvoeiatsirlngttneogrergxnteaifcecaieoalekfnr5lwefchdeeaeee7nmdrxx5
-> 
-> Central Block:
-> e3b8287d4290f7233814d7a47a291dc0f71b2806d1a53b311cc4b97a0e1cc2b93b31068593332f10c6a3352f14d1b27a3514d6f7382f1ad0b0322955d1b83d3801cdb2287d05c0b82a311085a033291d85a3323855d6bc333119d6fb7a3c11c4a72e3c17ccbb33290c85b6343955ccba3b3a1ccbb62e341acbf72e3255caa73f2f14d1b27a341b85a3323855d6bb333055c4a53f3c55c7b22e2a10c0b97a291dc0f73e3413c3be392819d1f73b331185a3323855ccba2a3206d6be3831108b
+```
+Heads Side
+
+B    T    H    A    S    A 
+''   :    :'   '    '.   .:
+
+Tails Side
+
+Outer Ring: 
+dvzivzfwzxrlfhrmxlmxvkgzmwnvgrxfolfhrmvcvxfgrlm
+urmwxozirgbrm7drwgsc5wvkgs
+
+Inner Ring:
+bgoamvoeiatsirlngttneogrergxnteaifcecaieoalekfnr5lwefchdeeaeee7nmdrxx5
+
+Central Block:
+e3b8287d4290f7233814d7a47a291dc0f71b2806d1a53b311cc4b97a0e1cc2b93b31068593332f10c6a3352f14d1b27a3514d6f7382f1ad0b0322955d1b83d3801cdb2287d05c0b82a311085a033291d85a3323855d6bc333119d6fb7a3c11c4a72e3c17ccbb33290c85b6343955ccba3b3a1ccbb62e341acbf72e3255caa73f2f14d1b27a341b85a3323855d6bb333055c4a53f3c55c7b22e2a10c0b97a291dc0f73e3413c3be392819d1f73b331185a3323855ccba2a3206d6be3831108b
+```
 
 The press release made lots of mention of WWII code breakers, and had the word "enigma" mentioned in it, as well as hinting that you would need Wikipedia to solve it all... so I thought the old Enigma machine must have had something to do with all this? The "BTHASA" and dots underneath lined up with the Enigma machine having 3 rotors each with a position/ring pair. This led me down an hour+ one-way trip to nowhere, as I just couldn't figure out how to make it fit into the Enigma criteria. While doing this, I was plugging the strings into [Cyberchef](https://gchq.github.io/CyberChef/) and trying random recipes just to see if I fluked on something that'd help (never underestimate aspergers-level bruteforcing while watching shows on your other monitor). It did. 
 
@@ -67,27 +66,20 @@ I translated it in our notes to show that the symbols could now either mean "C B
 
 Next we spent a while trying to figure out what "find clarity in 7 width x 5 depth" means. Obviously referring to some kind of matrix/grid, and there were multiple rabbit holes there to do with mathematical matrix puzzles and grid based ciphers. My mate and I here both managed to solve this one at the same time using 2 very different methods, which I thought was pretty cool... he was coding up a python script that organised the letters and I was sitting in VS Code manually copy/pasting chunks of the string into rows/columns. We both came up with this though:
 
-> bgoamvo
-> 
-> eiatsir
-> 
-> lngttne
-> 
-> ogrergx
-> 
-> nteaifc
-> 
-> - 
->  
-> ecaieoa
-> 
-> lekfnr5
-> 
-> lwefchd
-> 
-> eeaeee7
-> 
-> nmdrxx5
+```
+bgoamvo
+eiatsir
+lngttne
+ogrergx
+nteaifc
+ 
+ 
+ecaieoa
+lekfnr5
+lwefchd
+eeaeee7
+nmdrxx5
+```
 
 ... which if read as columns instead of rows (each chunk being a "paragraph"), reads: "belongingtoagreatteamstrivingforexcellencewemakeadifferencexorhexa5d75" or "Belonging to a great team striving for excellence we make a difference xor hex a5d75".
 
