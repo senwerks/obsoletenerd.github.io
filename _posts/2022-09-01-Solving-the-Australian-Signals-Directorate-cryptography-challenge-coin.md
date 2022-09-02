@@ -148,9 +148,21 @@ Cyberchef this time wouldn't help. We transcoded them into separate strings and 
 1000001101001110001001000011110001011100100110010011000001100100110010
 ```
 
-... which in 7-bit Binary decodes to "ASDCbr2022", or "Australian Signals Directorate Canberra 2022".
+... which in 7-bit Binary decodes to:
 
-The outer ring came close to looking like Morse Code and was giving some output that almost looked like real words, but just a bit too gibberish. After much banging-of-heads-on-keyboards we realised I'd transcoded the outer strings wrong, which meant of course we were trying to break codes that didn't exist. Firnsy noticed, re-transcoded properly, and it actually was Morse Code that decoded to:
+```
+ASDCbr2022
+```
+
+Or "Australian Signals Directorate Canberra 2022".
+
+The outer ring came close to looking like Morse Code and was giving some output that almost looked like real words, but just a bit too gibberish. After much banging-of-heads-on-keyboards we realised I'd transcoded the outer strings wrong, which meant of course we were trying to break codes that didn't exist. Firnsy noticed, re-transcoded properly, and it actually was Morse Code:
+
+```
+10000-00001-11110-00111--011-111-0111-10-1011-0111-1-101-0-1001-10-101-010-
+```
+
+That decoded to:
 
 ```
 1947DSBALBERTPARK
