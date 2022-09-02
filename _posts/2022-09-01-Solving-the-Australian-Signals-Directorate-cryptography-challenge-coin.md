@@ -137,3 +137,25 @@ Conclusion time...
 It was a fun series of puzzles, but nowhere near the complexity of a lot of those shared via DEFCON/etc (most of which I can get a few steps into then my brain explodes and I go drink a bottle of sake). I can't imagine this was difficult for anyone actually in the industry either, so I assume all the media hype about "solve this and you could get a job as a spy!" is just the usual media bullshit... I guarantee our spies are smarter than this medically-retired high-school dropout. ;)
 
 Still, I really enjoyed it, and while doing all of the above I managed to get through the 2 hour queue on the Australian Mint web store and snag myself a physical copy of the coin itself, so that's cool too.
+
+**Update: There's a 5th hidden puzzle**
+
+The different formatting of the text in the rings (bold, plain, and striped) seems to separate it into some new strings that form yet another layer to the coin.
+
+Cyberchef this time wouldn't help. We transcoded them into separate strings and spent ages running them through every known cipher and came up with nothing. There's no hints for this one either. It took a while, but eventually we figured out the inner circle is actually just binary, and the letters themselves don't matter at all. If you convert every light letter into a 1 and every dark letter into a 0 you get:
+
+```
+1000001101001110001001000011110001011100100110010011000001100100110010
+```
+
+... which in 7-bit Binary decodes to "ASDCbr2022", or "Australian Signals Directorate Canberra 2022".
+
+The outer ring came close to looking like Morse Code and was giving some output that almost looked like real words, but just a bit too gibberish. After much banging-of-heads-on-keyboards we realised I'd transcoded the outer strings wrong, which meant of course we were trying to break codes that didn't exist. Firnsy noticed, re-transcoded properly, and it actually was Morse Code that decoded to:
+
+```
+1947DSBALBERTPARK
+```
+
+As per the [ASD History page](https://www.asd.gov.au/75th-anniversary/stories/2022-03-16-organisational-historyprogression-bureau-melbourne-directorate-canberra) the ASD started as the DSB (Defence Signals Bureau) in Albert Park in 1947.
+
+Now I'm wondering... is there a 6th level? 7th? Should we be analysing the physical coin under microscopes when it arrives or shining UV lamps on it? How deep does it go? (No, we're pretty sure that's it now!)
