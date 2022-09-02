@@ -156,6 +156,8 @@ ASDCbr2022
 
 Or "Australian Signals Directorate Canberra 2022".
 
+![ASD 50c Coin - Back](/images/2022-09-01-ASD-50c-Coin-8.png)
+
 The outer ring came close to looking like Morse Code and was giving some output that almost looked like real words, but just a bit too gibberish. After much banging-of-heads-on-keyboards we realised I'd transcoded the outer strings wrong, which meant of course we were trying to break codes that didn't exist. Firnsy noticed, re-transcoded properly, and it actually was Morse Code:
 
 ```
@@ -167,6 +169,8 @@ That decoded to:
 ```
 1947DSBALBERTPARK
 ```
+
+![ASD 50c Coin - Back](/images/2022-09-01-ASD-50c-Coin-9.png)
 
 As per the [ASD History page](https://www.asd.gov.au/75th-anniversary/stories/2022-03-16-organisational-historyprogression-bureau-melbourne-directorate-canberra) the ASD started as the DSB (Defence Signals Bureau) in Albert Park in 1947.
 
