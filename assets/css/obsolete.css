@@ -1,4 +1,6 @@
-
+section {
+    margin: 0 0 25px 0;
+}
 
 /* Modify embedded Gists to suit site template */
 
@@ -72,3 +74,4 @@ body .gist .pl-kos, body .gist .pl-smi {
 body .gist .pl-k {
     color: #000084;
 }
+
