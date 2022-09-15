@@ -646,11 +646,18 @@ a:focus {
 }
 
 img {
-  -webkit-filter: contrast(800%);
-     -moz-filter: contrast(1000%);
-      -ms-filter: contrast(800%);
-       -o-filter: contrast(800%);
-          filter: contrast(1000%);
+  -webkit-filter: contrast(200%);
+     -moz-filter: contrast(200%);
+      -ms-filter: contrast(200%);
+       -o-filter: contrast(200%);
+          filter: contrast(200%);
+}
+img:hover {
+  -webkit-filter: contrast(100%);
+     -moz-filter: contrast(100%);
+      -ms-filter: contrast(100%);
+       -o-filter: contrast(100%);
+          filter: contrast(100%);
 }
 
 p {
