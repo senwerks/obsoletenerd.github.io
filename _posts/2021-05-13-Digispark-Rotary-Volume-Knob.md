@@ -5,7 +5,7 @@ summary: Designing a physical volume knob for my PC and laptop that work over US
 tags: [hardware]
 twitter: https://twitter.com/senwerks/status/1385204319377559553
 github: https://github.com/senwerks/digispark-volume-knob
-cover: 2021-05-13-DigisparkVolumeKnob-Laptop.jpg
+cover:
 ---
 
 My mechanical keyboard doesn't have media keys for volume/mute and while it's possible to map key combos to do the job, I've always preferred the tactile feedback of physical volume knobs. After making various other USB HID devices like a ["real" analog USB handbrake](https://github.com/senwerks/analog-usb-handbrake) for my racing sim and my [arcade button macro board](https://github.com/senwerks/arcade-macro-keyboard) for keyboard shortcuts, I figured making a volume knob should be easy enough. As is usual for me, I spent a solid evening looking up USB HID standards for media keys on standard desktop/laptop keyboards and got a prototype working using some very hacky code... then while doing some different searches on getting the Adafruit rotary encoder to work I came across [Adafruit's own tutorial](https://learn.adafruit.com/trinket-usb-volume-knob/) on making **exactly** this project, complete with fully working code for my exact encoder... typical.
