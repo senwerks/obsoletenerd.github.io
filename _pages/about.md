@@ -21,6 +21,9 @@ Most of my spare time these days is spent hacking on physical electronics (rpi, 
 
 Twitter/[@ObsoleteNerd](https://twitter.com/obsoletenerd)
 
-Twitch/[ObsoleteNerd](http://twitch.tv/obsoletenerd)
+Github/[ObsoleteNerd](https://github.com/obsoletenerd)
+
+Printables/[ObsoleteNerd](https://www.printables.com/social/1654-obsoletenerd/about)
 
 Thingiverse/[ObsoleteNerd](https://www.thingiverse.com/ObsoleteNerd)
+
