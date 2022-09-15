@@ -5,7 +5,7 @@ summary: Due to my physical disability requiring my leg be elevanted for a major
 tags: [woodwork]
 twitter:
 github:
-cover: 2021-03-01-Leg-Rest-Painted.jpg
+cover:
 ---
 
 Due to [permanent disability](/about/), my leg basically needs to stay elevated for 90% of the day, and every single recliner and leg-rest-type furniture I've found/tried has been designed to support your mid-calf-muscle area and have the rest of your leg sticking off the edge, which hurts for me. I've bought and abandoned more chairs/recliners/leg-rests/etc than I can count, and finally just decided to build my own.
