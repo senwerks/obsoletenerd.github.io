@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Solving the Australian Signals Directorate cryptography challenge coin"
-summary: Today the Australian Signals Directorate announced their [75th Anniversary Commemorative Coin](https://www.asd.gov.au/75th-anniversary/events/2022-09-01-75th-anniversary-commemorative-coin), which is a standard Australian 50 cent coin with various cryptographic puzzles embedded in it. I'm not a cryptography expert, but I've always loved this stuff from the sidelines of physical pentesting and teen-years script-kiddying, so I thought I'd give it a go. Along with a mate in our local Hackerspace's slack channel, we started bouncing ideas back and forth, and below is a write-up of the eventual path to solving all the puzzles on the coin (though as you'll see, not necessarily in the order they intended).
+summary: Today the Australian Signals Directorate announced their 75th Anniversary Commemorative Coin, which is a standard Australian 50 cent coin with various cryptographic puzzles embedded in it. I'm not a cryptography expert, but I've always loved this stuff from the sidelines of physical pentesting and teen-years script-kiddying, so I thought I'd give it a go. Along with a mate in our local Hackerspace's slack channel, we started bouncing ideas back and forth, and below is a write-up of the eventual path to solving all the puzzles on the coin (though as you'll see, not necessarily in the order they intended).
 tags: [infosec]
 twitter: https://twitter.com/senwerks/status/1565263499650949120
 github: 
