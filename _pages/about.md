@@ -15,13 +15,17 @@ Due a prolonged battle with cancer (and disabilities caused by that battle), I c
 
 Most of my spare time these days is spent hacking on physical electronics (rpi, arduino, esp, etc), playing with DIY “cloud”-free home automation (especially in areas that assist people with disabilities), remote control cars/boats/objects, internet security, privacy activism/hacktivism, and reading endless scifi novels.
 
----
+ 
 
 ### Social
 
+ 
+ 
 Twitter/[@ObsoleteNerd](https://twitter.com/obsoletenerd)
 
 Github/[ObsoleteNerd](https://github.com/obsoletenerd)
+
+Hackaday.io/[ObsoleteNerd](https://hackaday.io/ObsoleteNerd)
 
 Printables/[ObsoleteNerd](https://www.printables.com/social/1654-obsoletenerd/about)
 
