@@ -5,7 +5,7 @@ summary: A quick one-day build of a desk for the kids to play Lego at. Made from
 tags: [diy, hardware]
 twitter:
 github:
-cover:
+cover: /images/2019-11-23-Cover.png
 ---
 
 
