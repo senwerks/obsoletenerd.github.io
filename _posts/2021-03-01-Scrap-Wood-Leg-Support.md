@@ -1,15 +1,14 @@
 ---
 layout: post
-author: Sen
 title: "Scrap Wood Leg Support"
-tags: [diy, woodwork]
-categories: diy
+summary: Due to my physical disability requiring my leg be elevanted for a majority of the day, and every recliner on the market ending at the calf (and therefore not supporting the leg properly), I decided to design and build my own leg rest that lets me sit at my computer chair more comfortably.
+tags: [woodwork]
 twitter:
 github:
-image: 2021-03-01-Leg-Rest-Painted.jpg
+cover: 2021-03-01-Leg-Rest-Painted.jpg
 ---
 
-Due to [permanent disability](/menu/about.html), my leg basically needs to stay elevated for 90% of the day, and every single recliner and leg-rest-type furniture I've found/tried has been designed to support your mid-calf-muscle area and have the rest of your leg sticking off the edge, which hurts for me. I've bought and abandoned more chairs/recliners/leg-rests/etc than I can count, and finally just decided to build my own.
+Due to [permanent disability](/about/), my leg basically needs to stay elevated for 90% of the day, and every single recliner and leg-rest-type furniture I've found/tried has been designed to support your mid-calf-muscle area and have the rest of your leg sticking off the edge, which hurts for me. I've bought and abandoned more chairs/recliners/leg-rests/etc than I can count, and finally just decided to build my own.
 
 First I mocked up the position and made sure the height cleared the speaker under my desk, and that the top height/angle suited my leg when I'm sitting at the desk.
 

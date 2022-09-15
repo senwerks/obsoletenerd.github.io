@@ -1,0 +1,74 @@
+
+
+/* Modify embedded Gists to suit site template */
+
+body .gist .gist-file {
+    margin-bottom: 20px;
+    border: 0;
+    border-radius: 0;
+}
+
+body .gist .gist-data {
+    border-bottom: none;
+    border-radius: 0;
+    background-color: #000000;
+}
+
+body .gist .blob-wrapper {
+    border-radius: 0;
+}
+
+body .gist .highlight {
+    background-color: transparent;
+    font-family: DOS, Monaco, Menlo, Consolas, "Courier New", monospace;
+    font-size: 18px;
+    line-height: 20px;
+    color: #bbbbbb;
+    background-color: #000000;  
+}
+
+body .gist .highlight td {
+    padding: 5px 15px !important;
+    line-height: 1;
+    font-family: inherit;
+    font-size: inherit;
+}
+
+body .gist tr:first-child td {
+    padding-top: 15px !important;
+}
+
+body .gist tr:last-child td {
+    padding-bottom: 15px !important;
+}
+
+body .gist .blob-num {
+    color: #ffffff;
+    background-color: #bbbbbb;
+    pointer-events: none;
+}
+
+body .gist .blob-code {
+    color: #bbbbbb;
+}
+
+body .gist .gist-meta {
+    display: none;
+}
+
+/* Gist Code Colours */
+body .gist .pl-ent, body .gist .pl-k {
+    color: #fefe54;
+}
+body .gist .pl-c1 {
+    color: #00aaaa;
+}
+body .gist .pl-pds, body .gist .pl-en, body .gist .pl-s {
+    color: #ffffff;
+}
+body .gist .pl-kos, body .gist .pl-smi {
+    color: #bbbbbb;
+}
+body .gist .pl-k {
+    color: #000084;
+}

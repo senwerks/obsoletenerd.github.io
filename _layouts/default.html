@@ -1,20 +1,101 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>A:\OBSOLE~1\NERD\{{ page.title }}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="{{ site.author }} - {{ site.description }}">
+    <meta name="author" content="{{ site.author }}">
 
-{% include head.html %}
+    <link href="{{ site.baseurl }}/assets/css/bootstrap.css" rel="stylesheet">
+    <link href="{{ site.baseurl }}/assets/css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="{{ site.baseurl }}/assets/css/docs.css" rel="stylesheet">
+    <link href="{{ site.baseurl }}/assets/css/obsolete.css" rel="stylesheet">
+    
+    <!--[if lt IE 9]>
+      <script src="{{ site.baseurl }}/assets/js/html5shiv.js"></script>
+    <![endif]-->
 
-<body>
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ site.baseurl }}/assets/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="{{ site.baseurl }}/assets/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="{{ site.baseurl }}/assets/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="{{ site.baseurl }}/assets/ico/apple-touch-icon-57-precomposed.png">
+    <link rel="shortcut icon" href="{{ site.baseurl }}/assets/ico/favicon.png">
 
-  <div class="container">
-    {% include header.html %}
+    <link rel="alternate" type="application/atom+xml" title="{{ site.title }}" href="{{ site.baseurl }}/atom.xml">
+    <link rel="alternate" type="application/json" title="{{ site.title }}" href="{{ "/feed.json" | prepend: site.baseurl | prepend: site.url }}" />
+    <link rel="sitemap" type="application/xml" title="sitemap" href="{{ site.baseurl }}/sitemap.xml" />
 
-    <div class="post-container">
-      {{ content }}
+    <script>
+        _386 = { onePass: false, speedFactor: 2 };
+    </script>
+    
+    <noscript>
+      <style>
+        body { visibility: visible }
+      </style>
+    </noscript>
+  </head>
+
+  <body>
+    <!-- Navbar
+    ================================================== -->
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+          </button>
+          <a class="brand" href="{{ site.baseurl }}/">A:\OBSOLE~1\NERD</a>
+          <div class="nav-collapse collapse">
+            <ul class="nav">
+              {% for item in site.data.navigation.links %}
+              <li{% if item.url == page.url %} class="active"{% endif %}><a href="{{ item.url }}">\ {{ item.title }}</a></li>
+              {% endfor %}
+            </ul>
+          </div>
+        </div>
+      </div>
     </div>
 
-    {% include footer.html %}
+<header class="jumbotron subhead" id="overview">
+  <div class="container">
+    <h1>OBSOLETE NERD</h1>
+    <p class="lead">{{ site.description }}</p>
+  <div>
+</header>
+
+  <div class="container">
+
+    <div class="row">
+      <div class="span3 bs-docs-sidebar">
+        <ul class="nav nav-list bs-docs-sidenav">
+          <img src="{{ site.baseurl }}/assets/images/ansicomputer.png">
+        </ul>
+        <p><br></p>
+        <ul class="nav nav-list bs-docs-sidenav">
+          <li><h2>Latest Updates</h2></li>
+          {% for post in site.posts %}
+          <li{% if page.url == post.url %} class="active"{% endif %}><a href="{{ post.url }}">{{ post.title }}</a></li>
+          {% endfor %}
+        </ul>
+      </div>
+      <div class="span9">
+        {{ content }}
+
+      </div>
+    </div>
 
   </div>
 
-</body>
+    <footer class="footer">
+      <div class="container">
+        <hr>
+        <p>Remember when making websites used to be fun?</p>
+      </div>
+    </footer>
+
+    <script src="{{ site.baseurl }}/assets/js/jquery.js"></script>
+    <script src="{{ site.baseurl }}/assets/js/bootstrap-386.js"></script>
+    <script src="{{ site.baseurl }}/assets/js/bootstrap-collapse.js"></script>
+  </body>
 </html>

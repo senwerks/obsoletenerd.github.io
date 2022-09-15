@@ -1,15 +1,14 @@
 ---
 layout: post
-author: Sen
 title: "Solving the Australian Signals Directorate cryptography challenge coin"
-tags: []
-categories: hacktheplanet
+summary: Today the Australian Signals Directorate announced their [75th Anniversary Commemorative Coin](https://www.asd.gov.au/75th-anniversary/events/2022-09-01-75th-anniversary-commemorative-coin), which is a standard Australian 50 cent coin with various cryptographic puzzles embedded in it. I'm not a cryptography expert, but I've always loved this stuff from the sidelines of physical pentesting and teen-years script-kiddying, so I thought I'd give it a go. Along with a mate in our local Hackerspace's slack channel, we started bouncing ideas back and forth, and below is a write-up of the eventual path to solving all the puzzles on the coin (though as you'll see, not necessarily in the order they intended).
+tags: [infosec]
 twitter: https://twitter.com/senwerks/status/1565263499650949120
 github: 
-image: 2022-09-01-ASD-50c-Coin-0.jpg
+cover: 2022-09-01-ASD-50c-Coin-0.jpg
 ---
 
-Today the Australian Signals Directorate announced their [75th Anniversary Commemorative Coin](https://www.asd.gov.au/75th-anniversary/events/2022-09-01-75th-anniversary-commemorative-coin), which is a standard Australian 50 cent coin with various cryptographic puzzles embedded in it. I'm not a cryptography expert, but I've always loved this stuff from the sidelines, so I thought I'd give it a go. Along with my mate [@firnsy](https://twitter.com/ianfirns) in our local Hackerspace's slack channel, we started bouncing ideas back and forth, and below is a write-up of the eventual path to solving all the puzzles on the coin (though as you'll see, not necessarily in the order they intended).
+Today the Australian Signals Directorate announced their [75th Anniversary Commemorative Coin](https://www.asd.gov.au/75th-anniversary/events/2022-09-01-75th-anniversary-commemorative-coin), which is a standard Australian 50 cent coin with various cryptographic puzzles embedded in it. I'm not a cryptography expert, but I've always loved this stuff from the sidelines of physical pentesting and teen-years script-kiddying, so I thought I'd give it a go. Along with a mate in our local Hackerspace's slack channel, we started bouncing ideas back and forth, and below is a write-up of the eventual path to solving all the puzzles on the coin (though as you'll see, not necessarily in the order they intended).
 
 The coin itself looks like this:
 
@@ -17,7 +16,7 @@ The coin itself looks like this:
 
 ![ASD 50c Coin - Back](/images/2022-09-01-ASD-50c-Coin-2.png)
 
-The first thing we did is transcribe the text from the coin so we had it copy-pastable:
+The first thing we did is transcribe the text from the coin to a note file, so we had it copy-pastable:
 
 ```
 Heads Side
@@ -35,11 +34,7 @@ Inner Ring:
 bgoamvoeiatsirlngttneogrergxnteaifcecaieoalekfnr5lwefchdeeaeee7nmdrxx5
 
 Central Block:
-e3b8287d4290f7233814d7a47a291dc0f71b2806d1a53b311cc4b97a0e1cc2b93b31068593332
-f10c6a3352f14d1b27a3514d6f7382f1ad0b0322955d1b83d3801cdb2287d05c0b82a311085a0
-33291d85a3323855d6bc333119d6fb7a3c11c4a72e3c17ccbb33290c85b6343955ccba3b3a1cc
-bb62e341acbf72e3255caa73f2f14d1b27a341b85a3323855d6bb333055c4a53f3c55c7b22e2a
-10c0b97a291dc0f73e3413c3be392819d1f73b331185a3323855ccba2a3206d6be3831108b
+e3b8287d4290f7233814d7a47a291dc0f71b2806d1a53b311cc4b97a0e1cc2b93b31068593332f10c6a3352f14d1b27a3514d6f7382f1ad0b0322955d1b83d3801cdb2287d05c0b82a311085a033291d85a3323855d6bc333119d6fb7a3c11c4a72e3c17ccbb33290c85b6343955ccba3b3a1ccbb62e341acbf72e3255caa73f2f14d1b27a341b85a3323855d6bb333055c4a53f3c55c7b22e2a10c0b97a291dc0f73e3413c3be392819d1f73b331185a3323855ccba2a3206d6be3831108b
 ```
 
 The press release made lots of mention of WWII code breakers, and had the word "enigma" mentioned in it, as well as hinting that you would need Wikipedia to solve it all... so I thought the old Enigma machine must have had something to do with all this? The "BTHASA" and dots underneath lined up with the Enigma machine having 3 rotors each with a position/ring pair. This led me down an hour+ one-way trip to nowhere, as I just couldn't figure out how to make it fit into the Enigma criteria. While doing this, I was plugging the strings into [Cyberchef](https://gchq.github.io/CyberChef/) and trying random recipes just to see if I fluked on something that'd help (never underestimate aspergers-level bruteforcing while watching shows on your other monitor). It did. 
@@ -62,28 +57,13 @@ The output reads:
 
 The first part is a reference to the ASD "Values", as seen [on their website](https://www.asd.gov.au/about/values). The second part is obviously a clue for the next puzzle.
 
-At this point we figured out the dots on the Heads side of the coin could be something else, and while brainstorming random stuff we came across [Wikipedia entry on Braille](https://en.wikipedia.org/wiki/Braille). In there, was this section showing that a 4-dot version of Braille is used to show both the start of the alphabet and also numbers 0-9. 
+At this point I figured out the dots on the Heads side of the coin could be some form of grid pattern, and looked up the [Wikipedia entry on Braille](https://en.wikipedia.org/wiki/Braille). In there, was this section showing that a 4-dot version of Braille is used to show both the start of the alphabet and also numbers 0-9. 
 
 ![ASD 50c Coin - findclarityin7widthx5depth](/images/2022-09-01-ASD-50c-Coin-5.png)
 
-I translated it in our notes to show that the symbols could now either mean "C B F A E D" or "3 2 6 1 5 4". Firnsy noted that the letters above each Braille symbol, when re-ordered into numerical order based on those Braille numbers before, spells out ATBASH... oh wait, we already figured that puzzle out (thanks Cyberchef, I love you).
+I translated it in our notes to show that the symbols could now either mean "C B F A E D" or "3 2 6 1 5 4". My mate noted that the letters above each Braille symbol, when re-ordered into numerical order based on those Braille numbers before, spells out ATBASH... oh wait, we already figured that puzzle out (thanks Cyberchef, I love you).
 
-Next we spent a while trying to figure out what "find clarity in 7 width x 5 depth" means. Obviously referring to some kind of matrix/grid, and there were multiple rabbit holes there to do with mathematical matrix puzzles and grid based ciphers. Firnsy and I here both managed to solve this one at the same time using 2 very different methods, which I thought was pretty cool... he was coding up a python script that reorganised the letters and I was sitting in VS Code manually copy/pasting chunks of the string into rows/columns. We both came up with the idea of 7 columns though:
-
-```
-bgoamvo
-eiatsir
-lngttne
-ogrergx
-nteaifc
-ecaieoa
-lekfnr5
-lwefchd
-eeaeee7
-nmdrxx5
-```
-
-There's words there if you read vertically, but still not quite right. Split it in half though and read as columns instead of rows (each chunk being a "paragraph"):
+Next we spent a while trying to figure out what "find clarity in 7 width x 5 depth" means. Obviously referring to some kind of matrix/grid, and there were multiple rabbit holes there to do with mathematical matrix puzzles and grid based ciphers. My mate and I here both managed to solve this one at the same time using 2 very different methods, which I thought was pretty cool... he was coding up a python script that organised the letters and I was sitting in VS Code manually copy/pasting chunks of the string into rows/columns. We both came up with this though:
 
 ```
 bgoamvo
@@ -92,6 +72,7 @@ lngttne
 ogrergx
 nteaifc
  
+ 
 ecaieoa
 lekfnr5
 lwefchd
@@ -99,7 +80,7 @@ eeaeee7
 nmdrxx5
 ```
 
-It reads "belongingtoagreatteamstrivingforexcellencewemakeadifferencexorhexa5d75" or "Belonging to a great team striving for excellence we make a difference xor hex a5d75".
+... which if read as columns instead of rows (each chunk being a "paragraph"), reads: "belongingtoagreatteamstrivingforexcellencewemakeadifferencexorhexa5d75" or "Belonging to a great team striving for excellence we make a difference xor hex a5d75".
 
 Clearly the "XOR HEX a5d75" part is the clue, and I know what a XOR gate is... but I didn't realise there was also a "XOR Cipher" until doing some more web searching (again, not an expert). My search came up with the Wikipedia page about XOR Ciphers, and an example, but more helpfully came up with this ["XOR of two hexadecimal strings" tool](https://tomeko.net/online_tools/xor.php?lang=en) right on the first page. In VS Code I repeated the "a5d75" key until it was the same length as the source text (as per the Wikipedia example) and plugged them into the tool:
 
@@ -134,44 +115,6 @@ Yes, there's some typos there... I assume that comes from typos earlier in our p
 
 Conclusion time...
 
-It was a fun series of puzzles, but nowhere near the complexity of a lot of those shared via DEFCON/etc (most of which I can get a few steps into then my brain explodes and I go drink a bottle of sake). I can't imagine this was difficult for anyone actually in the industry either, so I assume all the media hype about "solve this and you could get a job as a spy!" is just the usual media bullshit... I guarantee our spies are smarter than this medically-retired high-school dropout. ;)
+It was a fun series of puzzles, but nowhere near the complexity of a lot of those shared via DEFCON/etc (most of which I can get a few steps into then my brain explodes and I go drink a bottle of sake). I can't imagine this was difficult for anyone actually in the industry either, so I assume all the media hype about "solve this and you could get a job as a spy!" is just the usual media bullshit... or Cyberchef and basic web searches has made puzzles like this as obsolete as me :)
 
-Still, I really enjoyed it, and while doing all of the above I managed to get through the 2 hour queue on the Australian Mint web store and snag myself a physical copy of the coin itself, so that's cool too.
-
-**Update: There's a 5th hidden puzzle**
-
-The different formatting of the text in the rings (bold, plain, and striped) seems to separate it into some new strings that form yet another layer to the coin.
-
-Cyberchef this time wouldn't help. We transcoded them into separate strings and spent ages running them through every known cipher and came up with nothing. There's no hints for this one either. It took a while, but eventually we figured out the inner circle is actually just binary, and the letters themselves don't matter at all. If you convert every light letter into a 1 and every dark letter into a 0 you get:
-
-```
-1000001101001110001001000011110001011100100110010011000001100100110010
-```
-
-... which in 7-bit Binary decodes to:
-
-```
-ASDCbr2022
-```
-
-Or "Australian Signals Directorate Canberra 2022".
-
-![ASD 50c Coin - Back](/images/2022-09-01-ASD-50c-Coin-8.png)
-
-The outer ring came close to looking like Morse Code and was giving some output that almost looked like real words, but just a bit too gibberish. After much banging-of-heads-on-keyboards we realised I'd transcoded the outer strings wrong, which meant of course we were trying to break codes that didn't exist. Firnsy noticed, re-transcoded properly, and it actually was Morse Code:
-
-```
-10000-00001-11110-00111--011-111-0111-10-1011-0111-1-101-0-1001-10-101-010-
-```
-
-That decoded to:
-
-```
-1947DSBALBERTPARK
-```
-
-![ASD 50c Coin - Back](/images/2022-09-01-ASD-50c-Coin-9.png)
-
-As per the [ASD History page](https://www.asd.gov.au/75th-anniversary/stories/2022-03-16-organisational-historyprogression-bureau-melbourne-directorate-canberra) the ASD started as the DSB (Defence Signals Bureau) in Albert Park in 1947.
-
-Now I'm wondering... is there a 6th level? 7th? Should we be analysing the physical coin under microscopes when it arrives or shining UV lamps on it? How deep does it go? (No, we're pretty sure that's it now!)
+Still, I enjoyed it, and while doing all of the above I managed to get through the 2 hour queue on the Australian Mint web store and snag myself a physical copy of the coin itself, so that's cool too.

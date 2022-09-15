@@ -1,29 +1,52 @@
-# Site Build Settings
+site: ObsoleteNerd.com
+url: https://obsoletenerd.com
+title: Obsolete Nerd
+description: Making, hacking, breaking, and (sometimes) fixing. Replaced by newer, better, faster nerds.
+author: ObsoleteNerd
+twitter: obsoletenerd
+email: hello@obsoletenerd.com
 
-# Jekyll-paginate-v2 configuration
-#  pagination:
-#   enabled: true
-#   per_page: 5
-#   permalink: '/page/:num/'
-#   title: ':title - page :num of :max'
-#   limit: 0
-#   sort_field: 'date'
-#   sort_reverse: true
+permalink: pretty
 
-# jekyll-paginate configuration
-paginate:            10
+baseurl: ""
 
-# Build settings
-markdown:            kramdown
-highlighter:         rouge
-permalink:           none
-plugins:             [jekyll-paginate, jekyll-sitemap, jekyll-feed, jekyll-seo-tag]
+highlighter: rouge
 
-# Customise atom feed settings (this is where Jekyll-Feed gets configuration information)
-title:		           'Sen Werks'
-description:	       'Stuff... by Sen'
-author:              'Sen'
+exclude:
+  - .jekyll-cache
+  
+compress_html:
+  clippings: all
+  comments: ["<!-- ", " -->"]
 
-# RSS 2.0 can be used instead of Atom by uncommenting following two lines
-feed:
-  path: rss.xml
+plugins:
+  - jekyll-paginate
+  - jekyll-seo-tag
+  - jekyll-sitemap  
+
+collections:
+  pages:
+    output: true
+    permalink: /:name
+  posts:
+    output: true
+    permalink: /:year/:month/:day/:slug
+  
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "default"
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
