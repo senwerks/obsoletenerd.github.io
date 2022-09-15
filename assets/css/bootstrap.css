@@ -1009,7 +1009,7 @@ address {
 
 code,
 pre {
-  padding: 0;
+  padding: 10px;
   font-family: DOS, Monaco, Menlo, Consolas, "Courier New", monospace;
   font-size: 18px;
   color: #555555;
@@ -1049,7 +1049,7 @@ pre.prettyprint {
 }
 
 pre code {
-  padding: 10px;
+  padding: 0;
   color: inherit;
   white-space: pre;
   white-space: pre-wrap;
