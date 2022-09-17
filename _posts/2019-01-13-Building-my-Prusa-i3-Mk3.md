@@ -2,7 +2,7 @@
 layout: post
 title: "Building my Prusa i3 Mk3 3D Printer"
 summary: The assembly of my Prusa i3 Mk3 3D printer, a Christmas present to myself. It took me way too long to finally bite the bullet and buy a 3D printer and it's finally here. What better way to celebrate than to print a whole bunch of useless crap I don't need (aka 90% of what all 3D printers are used for).
-tags: [hardware]
+tags: [Hardware]
 twitter: 
 github: 
 cover: /images/2019-01-13-Building-My-Prusa-i3-mk3-Cover.png

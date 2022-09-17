@@ -2,7 +2,7 @@
 layout: post
 title: "Digispark Volume Knob"
 summary: Designing a physical volume knob for my PC and laptop that work over USB using the standard OS media controls.
-tags: [hardware]
+tags: [Hardware]
 twitter: https://twitter.com/senwerks/status/1385204319377559553
 github: https://github.com/senwerks/digispark-volume-knob
 cover:

@@ -2,7 +2,7 @@
 layout: post
 title: "Toy Magnetic Fishing Rod"
 summary: A toy fishing rod I made together with my daughters, using a piece of scrap wooden dowel, some yarn/string, and a few 3D printed pieces we designed/printed on the day. Optionally glueing some magnets on the end and to some 3D printed fish (or any other toys around the house) lets them go "fishing" whenever they want. They've loved these so much they've actually worn them out and I had to redesign and reprint a few parts to be stronger.
-tags: [diy, hardware]
+tags: [Hardware]
 twitter: https://twitter.com/obsoletenerd/status/1299250647997374466
 github: https://github.com/obsoletenerd/diy-toys
 cover:

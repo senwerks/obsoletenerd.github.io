@@ -2,7 +2,7 @@
 layout: post
 title: "Designing Merchandise for Ballarat Hackerspace"
 summary: I designed a series of merchandise to help my local non-profit Hackerspace out. Due to me already having an established Redbubble (products on-demand) store set up, it was simply a matter of coming up with a series of designs in Inkscape and then creating the new products on my store. The idea was just to get a variety of merchandise that members/friends could buy for Christmas, and to help spread the branding for the Hackerspace a bit, so I kept it pretty simple.
-tags: [design, products]
+tags: [Random]
 twitter: https://twitter.com/obsoletenerd/status/1260202069325049859
 github:
 cover: 

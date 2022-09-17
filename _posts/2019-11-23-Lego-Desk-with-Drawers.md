@@ -2,7 +2,7 @@
 layout: post
 title: "Lego Desk with Drawers"
 summary: A quick one-day build of a desk for the kids to play Lego at. Made from a rescued set of Ikea drawers and some scrap Acacia kitchen counter-top slab. Nothing fancy in this one, we just sanded/painted the Ikea drawers and then attached the top, but I think it turned out disproportionately good for how little effort was required. It's now a unique "custom" piece of furniture that gets almost daily use.
-tags: [diy, hardware]
+tags: [Hardware]
 twitter:
 github:
 cover: /images/2019-11-23-Cover.png

@@ -2,7 +2,7 @@
 layout: post
 title: "Scrap Wood Leg Support"
 summary: Due to my physical disability requiring my leg be elevanted for a majority of the day, and every recliner on the market ending at the calf (and therefore not supporting the leg properly), I decided to design and build my own leg rest that lets me sit at my computer chair more comfortably.
-tags: [woodwork]
+tags: [Hardware]
 twitter:
 github:
 cover: /images/2021-03-01-Cover.png

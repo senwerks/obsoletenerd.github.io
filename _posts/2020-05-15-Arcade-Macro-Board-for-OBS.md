@@ -2,7 +2,7 @@
 layout: post
 title: "Arcade Macro Board for OBS"
 summary: A macro keyboard for OBS scene-switching (or other keyboard-shortcut shenanigans) made of arcade buttons and an Arduino Pro Micro. Acts like a normal USB keyboard, but each arcade button runs multi-key macros/shortcuts of your choosing. Also useful for racing/flight sims or anywhere else where you need a few big colourful shortcut buttons.
-tags: [diy, hardware, software]
+tags: [Hardware, Software]
 twitter: https://twitter.com/obsoletenerd/status/1260202069325049859
 github: https://github.com/obsoletenerd/arcade-macro-keyboard
 cover: 

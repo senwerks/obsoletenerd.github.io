@@ -2,7 +2,7 @@
 layout: post
 title: "DIY LiPo Battery for the Original Gameboy"
 summary: Creating a hot-swappable USB-rechargeable LiPo battery pack for original Gameboys that doesn't require chopping up the console or any other modifications, and fits directly in where the original AA batteries go.
-tags: [hardware]
+tags: [Hardware]
 twitter: https://twitter.com/senwerks/status/1416976612470394882
 github: https://github.com/senwerks/lipo-battery-for-original-gameboy/
 cover: /images/2021-07-20-Cover.png
