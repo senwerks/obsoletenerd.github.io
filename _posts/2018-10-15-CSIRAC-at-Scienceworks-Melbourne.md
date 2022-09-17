@@ -5,7 +5,7 @@ summary: A visit to CSIRAC (*Commonwealth Scientific and Industrial Research Org
 tags: [retrotech]
 twitter:
 github:
-cover:
+cover: /images/CSIRAC-Cover.png
 ---
 
 ## CSIRAC is the only intact first-generation computer surviving anywhere in the world.
