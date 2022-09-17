@@ -14,7 +14,7 @@ Ping Pong Pixels were an idea I had a long time ago but took forever to get arou
 
 I initially played around in Fusion 360 trying to come up with a way that would let you connect multiple modules together on any edge, without having to use hardware/bolts or anything else. The idea is you should be able to just print everything and keep it as minimal as possible while still being strong enough to stay together and be moved around without all falling apart. It took a fair few iterations to nail it, but the final result is actually quite impressive and I've got lamps around the house now that have held together for over a year, even with kids playing with them and moving them.
 
-![Ping Pong Pixels](/images/2020-09-06-Ping-Pong-Pixels-1.jpg)
+![Ping Pong Pixels](/images/2020-09-06-Ping-Pong-Pixels-1.png)
 ![Ping Pong Pixels](/images/2020-09-06-Ping-Pong-Pixels-2.jpg)
 
 Using ping pong balls as diffusers wasn't my idea (credit goes to [Bitluni](https://www.youtube.com/watch?v=fz2QAV9z_o8&t=1s) for that one) but from my searching around at the time I seem to have been the first to come up with the idea of making it modular, rather than huge sheets of wood drilled out as a single large matrix. I'm really into having lots of little RGB decorative lamps around the house as mood lighting, so I just wanted an easier way to do this for myself.
