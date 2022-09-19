@@ -43,10 +43,11 @@
     <div class="navbar navbar-inverse navbar-fixed-top">
       <div class="navbar-inner">
         <div class="container">
-          <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-          </button>
+          <!--<button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+          </button>-->
           <a class="brand" href="{{ site.baseurl }}/">A:\OBSOLE~1\NERD</a>
-          <div class="nav-collapse collapse">
+          <!--<div class="nav-collapse collapse">-->
+          <div class="nav">
             <ul class="nav">
               {% for item in site.data.navigation.links %}
               <li{% if item.url == page.url %} class="active"{% endif %}><a href="{{ item.url }}">\ {{ item.title }}</a></li>
@@ -73,7 +74,7 @@
         </ul>
         <p><br></p>
         <ul class="nav nav-list bs-docs-sidenav">
-          <li><h2>Latest Updates</h2></li>
+          <li><h2>Latest Posts</h2></li>
           {% for post in site.posts %}
           <li{% if page.url == post.url %} class="active"{% endif %}><a href="{{ post.url }}">{{ post.title }}</a></li>
           {% endfor %}
