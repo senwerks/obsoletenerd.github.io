@@ -68,7 +68,7 @@
           {% endfor %}
           <li class="divider"></li>
           <li class="nav-header">Posts</li>
-          {% for post in site.posts %}
+          {% for post in site.posts limit: 10 %}
           <li{% if page.url == post.url %} class="active"{% endif %}><a href="{{ post.url }}">{{ post.title }}</a></li>
           {% endfor %}
         </ul>
