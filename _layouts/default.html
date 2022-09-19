@@ -48,7 +48,7 @@
 
 <header class="jumbotron subhead" id="overview">
   <div class="container">
-    <h1>OBSOLETE NERD</h1>
+    <h1><img src="{{ site.baseurl }}/assets/images/ansicomputer.png"></h1>
     <p class="lead">{{ site.description }}</p>
   <div>
 </header>
@@ -64,7 +64,7 @@
         <ul class="nav nav-list">
           <li class="nav-header">Pages</li>
           {% for item in site.data.navigation.links %}
-          <li{% if item.url == page.url %} class="active"{% endif %}><a href="{{ item.url }}">\ {{ item.title }}</a></li>
+          <li{% if item.url == page.url %} class="active"{% endif %}><a href="{{ item.url }}">{{ item.title }}</a></li>
           {% endfor %}
           <li class="divider"></li>
           <li class="nav-header">Posts</li>
