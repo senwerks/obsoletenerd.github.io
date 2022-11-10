@@ -67,6 +67,13 @@
           <li{% if item.url == page.url %} class="active"{% endif %}><a href="{{ item.url }}">{{ item.title }}</a></li>
           {% endfor %}
           <li class="divider"></li>
+          <li class="nav-header">Social</li>
+          <a rel="me" href="https://hackerspace.au/@sen">Mastodon</a>
+          <a rel="me" href="https://github.com/obsoletenerd">Github</a>
+          <a rel="me" href="https://www.printables.com/social/1654-obsoletenerd">Printables</a>
+          <a rel="me" href="https://www.thingiverse.com/obsoletenerd/">Thingiverse</a>
+          <a rel="me" href="https://twitter.com/obsoletenerd">Twitter</a>
+          <li class="divider"></li>
           <li class="nav-header">Posts</li>
           {% for post in site.posts limit: 10 %}
           <li{% if page.url == post.url %} class="active"{% endif %}><a href="{{ post.url }}">{{ post.title }}</a></li>
@@ -85,7 +92,6 @@
       <div class="container">
         <hr>
         <p>Remember when making websites used to be fun?</p>
-        <a rel="me" href="https://hackerspace.au/@sen" style="display:none">Mastodon</a>
       </div>
     </footer>
 
