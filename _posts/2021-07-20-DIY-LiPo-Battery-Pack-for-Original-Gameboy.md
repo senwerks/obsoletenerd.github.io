@@ -5,25 +5,24 @@ summary: Creating a hot-swappable USB-rechargeable LiPo battery pack for origina
 tags: [Hardware]
 twitter: https://twitter.com/senwerks/status/1416976612470394882
 github: https://github.com/senwerks/lipo-battery-for-original-gameboy/
-cover: /images/2021-07-20-Cover.png
+cover: http://obsoletenerd.com/images/2021-07-20-Cover.png
 ---
 
 I was pretty sick of worrying about the AA batteries for my original Gameboy, and just wanted a LiPo pack I could recharge via micro USB like so many of my modern devices. I found some existing projects that require cutting up the Gameboy, or modifying it in various ways... or some products from overseas that cost a fair bit and are basically just a LiPo + controller jammed into the battery cavity. I wanted something that didn't require any modification to the original Gameboy, and could be swapped back and forth with normal AAs if required.
 
 I started off designing the basic idea in Fusion 360 and then repeatedly printing it while playing with sub-mm variations on my measurements until it fit into the existing battery compartment snugly, held in place by the original springs.
 
+![Gameboy LiPo Battery initial CAD](http://obsoletenerd.com/images/2021-07-20-DMG01-LiPo-00.png)
 
-![Gameboy LiPo Battery initial CAD](/images/2021-07-20-DMG01-LiPo-00.png)
-
-![Gameboy LiPo Battery case iterations](/images/2021-07-20-DMG01-LiPo-02.jpg)
+![Gameboy LiPo Battery case iterations](http://obsoletenerd.com/images/2021-07-20-DMG01-LiPo-02.jpg)
 
 For more details specific details on how the project was made, check [the Github repo](https://github.com/senwerks/lipo-battery-for-original-gameboy/) (pasted below), but with a few bits from [Core Electronics](https://core-electronics.com.au/) and some soldering, ended up with this:
 
-![Gameboy LiPo Battery](/images/2021-07-20-DMG01-LiPo-06.jpg)
+![Gameboy LiPo Battery](http://obsoletenerd.com/images/2021-07-20-DMG01-LiPo-06.jpg)
 
-![Gameboy LiPo Battery](/images/2021-07-20-DMG01-LiPo-08.jpg)
+![Gameboy LiPo Battery](http://obsoletenerd.com/images/2021-07-20-DMG01-LiPo-08.jpg)
 
-*The below is a copy/paste from [the Github repo](https://github.com/senwerks/lipo-battery-for-original-gameboy/):*
+_The below is a copy/paste from [the Github repo](https://github.com/senwerks/lipo-battery-for-original-gameboy/):_
 
 # LiPo Battery Pack for the original Gameboy (DMG-01)
 
@@ -41,7 +40,7 @@ It's a very simple build, and most of the effort was in iterating (and iterating
 
 ## Instructions
 
-Print the 2 STL files (I've also included gcode files for Prusa i3's, and a project file). 
+Print the 2 STL files (I've also included gcode files for Prusa i3's, and a project file).
 
 ![3D printed case for the Gameboy LiPo Battery](https://raw.githubusercontent.com/senwerks/lipo-battery-for-original-gameboy/main/Meta/2021-07-20-DMG01-LiPo-01.jpg)
 

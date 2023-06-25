@@ -5,7 +5,7 @@ summary: I designed a series of merchandise to help my local non-profit Hackersp
 tags: [Random]
 twitter: https://twitter.com/obsoletenerd/status/1260202069325049859
 github:
-cover: 
+cover:
 ---
 
 I've been designing random merchandise/products for various car clubs and social clubs for a fair few years now (closer to 20 now I think about it!) but I haven't done any new designs in the last year(ish), so I figured I could come up with some new T-shirt/product designs for my local non-profit Hackerspace. They've done some basic logo shirt runs before, but the up-front costs of doing "proper" print runs makes it difficult to play around with many designs/styles. Considering I already have an [established Redbubble store](https://www.redbubble.com/people/CVIII/shop?asc=u) that's been going for a few years, I decided to offer to create a category for them there and sell them all at cost-price, just to get shirts on bodies and help spread the branding a bit. With Christmas around the corner I kept it pretty simple and just went with a few basic ideas, but being print-on-demand and no up-front cost for us I could do multiple variations/colours for each idea.
@@ -16,7 +16,7 @@ Having cancelled all my Adobe products out of pure rage (and swearing to never t
 
 I imported a basic stock photo of a black T-shirt just to have some reference/perspective for the final product, and then went about laying down stylised text of the phrases/slogans we came up with. Thankfully the Hackerspace already had a nice vector logo that I could use for their branding side of things, so it was really just an few hours of playing with fonts (my favourite part of every design) and tweaking things until they "clicked" when I looked at them. I'm the brute-force type of designer, I just keep changing stuff around and go through dozens of iterations per design until I'm happy with it.
 
-![Screenshot](/images/2020-11-06-BHack-Inkscape.png)
+![Screenshot](http://obsoletenerd.com/images/2020-11-06-BHack-Inkscape.png)
 
 Once happy with the design, I delete/hide the background T-shirt picture then export the vector design elements as high resolution PNG images, and then import them to Redbubble and start setting up all the products. Redbubble UI/UX is absolutely atrocious, so setting up each product generally takes longer than it took to design the thing in the first place. Tweaking the positioning, scaling, setting each products pricing, metadata, etc etc.
 
@@ -26,7 +26,7 @@ The designs/products I ended up liking enough to publish were these below. Each 
 
 ## It's a Hackerspace Not a Perfectospace
 
-![Screenshot](/images/2020-11-06-BHack-Perfectospace.png)
+![Screenshot](http://obsoletenerd.com/images/2020-11-06-BHack-Perfectospace.png)
 
 This design comes in a few different fonts/colours but the same slogan that a member Brett came up with: "It's a Hackerspace, Not a Perfectospace".
 
@@ -42,13 +42,12 @@ Orange 70s font: https://www.redbubble.com/shop/ap/61725520
 
 ## Warranty Voiding
 
-![Screenshot](/images/2020-11-06-BHack-VoidWarranties.png)
+![Screenshot](http://obsoletenerd.com/images/2020-11-06-BHack-VoidWarranties.png)
 
-It wouldn't be a Hackerspace without t-shirts/stickers related to voiding warranties, so here's my attempts at that. 
+It wouldn't be a Hackerspace without t-shirts/stickers related to voiding warranties, so here's my attempts at that.
 
 Void All Warranties in white labeller: https://www.redbubble.com/shop/ap/61728121
 
 Void All Warranties in green LCD: https://www.redbubble.com/shop/ap/61728214
 
 Everything Fun Voids Warranties in plain white: https://www.redbubble.com/shop/ap/61723475
-

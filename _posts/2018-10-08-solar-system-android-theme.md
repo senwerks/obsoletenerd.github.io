@@ -18,7 +18,7 @@ Inspired by the various "sliced planets" art pieces around, such as [Steve Gilde
 
 So, with some photoshop work, some changes to the [Nova Launcher](http://novalauncher.com/) grid layout, and the incredible ["Min" Icon Pack](https://play.google.com/store/apps/details?id=com.ryanmkelly.me.min), I came up with this:
 
-![Screenshot](/images/2018-10-08-screenshot.jpg)
+![Screenshot](http://obsoletenerd.com/images/2018-10-08-screenshot.jpg)
 
 ### How To
 
@@ -26,16 +26,16 @@ So, with some photoshop work, some changes to the [Nova Launcher](http://novalau
 
 - In the "Nova Settings" app, go to Desktop > Desktop Grid and change it to 7 rows, and whatever columns you want:
 
-![Nova Launcher Grid Settings](/images/2018-10-08-nova-launcher.jpg)
+![Nova Launcher Grid Settings](http://obsoletenerd.com/images/2018-10-08-nova-launcher.jpg)
 
 - Install ["Min" Icon Pack](https://play.google.com/store/apps/details?id=com.ryanmkelly.me.min)
 
 - Download and apply my wallpaper:
 
-![Solar System Slices wallpaper, by ObsoleteNerd](/images/2018-10-08-wallpaper.jpg)
+![Solar System Slices wallpaper, by ObsoleteNerd](http://obsoletenerd.com/images/2018-10-08-wallpaper.jpg)
 
 _Yes, it's missing Neptune. Just due to the slice size and overall layout I wanted, there wasn't space. I'll probably make a different version without the Sun soon, and just a large sliced planet, which has all the planets and some sliced moons._
 
 As a bonus, here's a little GIF showing the layers. I meant to record the entire process timelapse-style but completely forgot.
 
-![Photoshop Layers Animation](/images/2018-10-08-animation.gif)
+![Photoshop Layers Animation](http://obsoletenerd.com/images/2018-10-08-animation.gif)

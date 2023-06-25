@@ -12,7 +12,7 @@ My mechanical keyboard doesn't have media keys for volume/mute and while it's po
 
 It's a very basic project overall, suitable for beginners with only a few wires to solder and some copy/paste code with no modifications required (unless you change the pins used). The part that took the longest was designing the enclosure as I had a very specific goal in mind. I wanted it to be as small as possible, plug directly into my laptop or into my PC via a USB extension cable, and show off the Digispark. I've also been playing with designing/printing enclosures that click together so that everything can come apart again later if a component needs replacing, rather than my old "just add more glue" approach.
 
-*The below is a copy/paste from [the Github repo](https://github.com/senwerks/digispark-volume-knob/):*
+_The below is a copy/paste from [the Github repo](https://github.com/senwerks/digispark-volume-knob/):_
 
 # Digispark Volume Knob
 
@@ -38,20 +38,20 @@ Mock the parts up inside the chassis to get an idea for wire lengths, then solde
 - Encoder switch pin 1 to Digispark pin 1
 - Encoder switch pin 2 to Digispark 5V
 
-![Digispark Volume Knob wiring](https://raw.githubusercontent.com/senwerks/digispark-volume-knob/main/Meta/DigisparkVolumeKnob-Wiring.jpg)
+![Digispark Volume Knob wiring](http://obsoletenerd.com/images/2021-05-13-DigisparkVolumeKnob-Wiring.jpg)
 
 The code to load onto the Digispark is just the Adafruit ["Trinket USB Volume Knob" code](https://learn.adafruit.com/trinket-usb-volume-knob/add-a-mute-button), as their Trinket uses the same Attiny85 chip as the Digispark so they're 100% compatible. If you know what you're doing, you can copy/paste the code from my repository (don't forget to add the "TrinketHidCombo.h" library before compiling) or if you need more details, follow [their tutorial here](https://learn.adafruit.com/trinket-usb-volume-knob/code) and make sure you use the extra code from the "Add a Mute Button" page if you got an encoder with clicky switch.
 
 I then used a bit of 3M double-sided tape to stick the encoder to the chassis piece and keep it stable (yet still be able to peel it off if it fails and needs to be replaced), or you could use hot glue, and then crammed all the wiring in:
 
-![Digispark Volume Knob parts](https://raw.githubusercontent.com/senwerks/digispark-volume-knob/main/Meta/DigisparkVolumeKnob-Parts.jpg)
+![Digispark Volume Knob parts](http://obsoletenerd.com/images/2021-05-13-DigisparkVolumeKnob-Parts.jpg)
 
-![Digispark Volume Knob assembly](https://raw.githubusercontent.com/senwerks/digispark-volume-knob/main/Meta/DigisparkVolumeKnob-Assembly.jpg)
+![Digispark Volume Knob assembly](http://obsoletenerd.com/images/2021-05-13-DigisparkVolumeKnob-Assembly.jpg)
 
 The lid clicks onto the chassis (and is easily removable for repairs later), and then the knob clips onto the top of the encoder. NOTE: You might need to print the knob at 102% size if it's a bit too tight on your encoder, depends on your printers tolerances.
 
 Depending on your laptop/device you can plug it directly into the USB port, or I use a small USB extension cable from my PC to have the knob sitting directly to the right of my mouse for easy volume adjustments.
 
-![Digispark Volume Knob on a laptop](https://raw.githubusercontent.com/senwerks/digispark-volume-knob/main/Meta/DigisparkVolumeKnob-Laptop.jpg)
+![Digispark Volume Knob on a laptop](http://obsoletenerd.com/images/2021-05-13-DigisparkVolumeKnob-Laptop.jpg)
 
-![Digispark Volume Knob on a PC](https://raw.githubusercontent.com/senwerks/digispark-volume-knob/main/Meta/DigisparkVolumeKnob-Desktop.jpg)
+![Digispark Volume Knob on a PC](http://obsoletenerd.com/images/2021-05-13-DigisparkVolumeKnob-Desktop.jpg)

@@ -5,14 +5,14 @@ summary: A visit to CSIRAC (*Commonwealth Scientific and Industrial Research Org
 tags: [Meatspace, Hardware]
 twitter:
 github:
-cover: /images/CSIRAC-Cover.png
+cover: http://obsoletenerd.com/images/CSIRAC-Cover.png
 ---
 
 ## CSIRAC is the only intact first-generation computer surviving anywhere in the world.
 
 I took the kids to check out [Scienceworks](https://museumsvictoria.com.au/scienceworks/) which is a Science Museum run by Museums Victoria, in Melbourne. They have an extensive collection of interactive scientific displays covering the past, present, and future of science and technology, and is a really fun place to visit with or without kids. There's a planetarium, lightning room with show, massive kids play areas with various electronic and physical interactive pieces, sports science area with incredibly fun systems to test your strength, reflexes, agility, flexibility, etc, and lots more.
 
-One of the main things that really caught my eye, was [CSIRAC](https://museumsvictoria.com.au/csirac/index.aspx) (*Commonwealth Scientific and Industrial Research Organisation Automatic Computer*), which was the fourth computer ever built in the world, and was designed and built here in Australia. It ran it's first successful test run in November of 1949, and is now sitting in Scienceworks claiming the spot of the only intact first-generation computer left anywhere on earth.
+One of the main things that really caught my eye, was [CSIRAC](https://museumsvictoria.com.au/csirac/index.aspx) (_Commonwealth Scientific and Industrial Research Organisation Automatic Computer_), which was the fourth computer ever built in the world, and was designed and built here in Australia. It ran it's first successful test run in November of 1949, and is now sitting in Scienceworks claiming the spot of the only intact first-generation computer left anywhere on earth.
 
 CSIRAC was also the first computer to ever play music, which I thought was really cool.
 
@@ -22,16 +22,16 @@ CSIRAC was also the first computer to ever play music, which I thought was reall
 
 Here are some crappy photos I took:
 
-![CSIRAC](/images/CSIRAC-1.jpg)
+![CSIRAC](http://obsoletenerd.com/images/CSIRAC-1.jpg)
 
-![CSIRAC](/images/CSIRAC-2.jpg)
+![CSIRAC](http://obsoletenerd.com/images/CSIRAC-2.jpg)
 
-![CSIRAC](/images/CSIRAC-3.jpg)
+![CSIRAC](http://obsoletenerd.com/images/CSIRAC-3.jpg)
 
-![CSIRAC](/images/CSIRAC-4.jpg)
+![CSIRAC](http://obsoletenerd.com/images/CSIRAC-4.jpg)
 
-![CSIRAC](/images/CSIRAC-5.jpg)
+![CSIRAC](http://obsoletenerd.com/images/CSIRAC-5.jpg)
 
-![CSIRAC](/images/CSIRAC-6.jpg)
+![CSIRAC](http://obsoletenerd.com/images/CSIRAC-6.jpg)
 
-![CSIRAC](/images/CSIRAC-7.jpg)
+![CSIRAC](http://obsoletenerd.com/images/CSIRAC-7.jpg)

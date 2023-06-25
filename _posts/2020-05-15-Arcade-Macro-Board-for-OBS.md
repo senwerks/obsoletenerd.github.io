@@ -5,7 +5,7 @@ summary: A macro keyboard for OBS scene-switching (or other keyboard-shortcut sh
 tags: [Hardware, Software]
 twitter: https://twitter.com/obsoletenerd/status/1260202069325049859
 github: https://github.com/obsoletenerd/arcade-macro-keyboard
-cover: 
+cover:
 ---
 
 Since the coronapocalypse kicked in and we've all been isolated, I've been doing a lot of Jitsi meets with various groups of friends. We'll get togther for a video chat, and thanks to [OBS (open source broadcasting software)](https://obsproject.com/) we can do things like sharing our screens to each other with our webcam overlayed, or play a game and share that with each other, and lots more. In OBS you set up "Scenes", which are basically layouts of what you want to show each other. One might be your webcam view of yourself placed in the corner of a screen showing your coding IDE, so you can show code you've been working on. Another might be the screen showing a game you're playing. It's the software used by almost every single Twitch/YouTube streamer and live online show, and it's extremely powerful software considering it's completely free.
@@ -28,7 +28,7 @@ Number of buttons doesn't matter, you can do more or less, as long as you have e
 
 ## Wiring Diagram
 
-![Arcade Macro Keyboard Diagram](https://raw.githubusercontent.com/obsoletenerd/arcade-macro-keyboard/master/Meta/WiringDiagram.png)
+![Arcade Macro Keyboard Diagram](http://obsoletenerd.com/images/2020-05-15-WiringDiagram.png)
 
 ## Installation
 
@@ -37,13 +37,13 @@ Number of buttons doesn't matter, you can do more or less, as long as you have e
 - Open up your OBS Settings and go to Hotkeys (this assumes you already have scenes set up)
 - Click on each of your scene's "Switch to Scene" entry, and press one of the buttons on the macro board to insert that button's shortcut combo
 
-![OBS Hotkeys](https://raw.githubusercontent.com/obsoletenerd/arcade-macro-keyboard/master/Meta/MappingButtonsInOBS.png)
+![OBS Hotkeys](http://obsoletenerd.com/images/2020-05-15-MappingButtonsInOBS.png)
 
 - Click OK
 
 ## Arduino
 
-Want to use the Arduino IDE instead of VS Code? The .cpp file in /src should work fine as-is (embedded below), or you can visit the [Arcade Macro Keyboard Sketchbook](https://create.arduino.cc/editor/obsoletenerd/15b42f98-5e19-4aff-b1d9-8078c02f6f8f/preview) on Arduino.cc to install the code directly from the browser to your Arduino Nano. 
+Want to use the Arduino IDE instead of VS Code? The .cpp file in /src should work fine as-is (embedded below), or you can visit the [Arcade Macro Keyboard Sketchbook](https://create.arduino.cc/editor/obsoletenerd/15b42f98-5e19-4aff-b1d9-8078c02f6f8f/preview) on Arduino.cc to install the code directly from the browser to your Arduino Nano.
 
 <script src="https://gist.github.com/obsoletenerd/c0ca22b73e6c3040dd16fd8d8b610856.js"></script>
 
@@ -51,8 +51,8 @@ Want to use the Arduino IDE instead of VS Code? The .cpp file in /src should wor
 
 3D printed case STL is [included here](https://github.com/obsoletenerd/arcade-macro-keyboard/blob/master/ArcadeMacroKeyboardCase.stl), but it's very basic. Print it top down, no supports or anything needed. I'll probably design a nicer one at some point.
 
-![OBS Hotkeys](https://raw.githubusercontent.com/obsoletenerd/arcade-macro-keyboard/master/Meta/ArcadeMacroKeyboard1.jpg)
+![OBS Hotkeys](http://obsoletenerd.com/images/2020-05-15-ArcadeMacroKeyboard1.jpg)
 
-![OBS Hotkeys](https://raw.githubusercontent.com/obsoletenerd/arcade-macro-keyboard/master/Meta/ArcadeMacroKeyboard2.jpg)
+![OBS Hotkeys](http://obsoletenerd.com/images/2020-05-15-ArcadeMacroKeyboard2.jpg)
 
-![OBS Hotkeys](https://raw.githubusercontent.com/obsoletenerd/arcade-macro-keyboard/master/Meta/ArcadeMacroKeyboard3.jpg)
+![OBS Hotkeys](http://obsoletenerd.com/images/2020-05-15-ArcadeMacroKeyboard3.jpg)

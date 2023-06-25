@@ -8,7 +8,7 @@ github: https://github.com/obsoletenerd/diy-toys
 cover:
 ---
 
-[Magnetic Fishing Rod](MagneticFishingRodComplete.jpg)
+[Magnetic Fishing Rod](http://obsoletenerd.com/images/2019-11-23-MagneticFishingRodComplete.jpg)
 
 A while ago I made some ridiculously simple fishing rods for my toddlers to play with, basically some string tied to a drilled hole at the end of a piece of wooden dowel, and a laser cut MDF "hook" at the end. It was mostly about imagination play, and they'd dangle them off the balcony of their cubby house and pretend to catch fish. It was a huge success, and the kids used them heaps, but eventually outgrew the idea of it just being string on a stick and wanted something a bit more interactive. We're not big on buying toys that we could make ourselves, and also love showing them that you can build your own stuff to a much higher quality than anything bought at the toy shop, so we came up with this magnetic fishing rod toy.
 
@@ -18,27 +18,27 @@ This entire project is using random bits I had lying around, so it has been desi
 
 First I made a rough prototype, it was overly chunky and just done using basic shapes in Fusion to make sure it all worked and the kids enjoyed the idea.
 
-[Prototype Fishing Rod](MagneticFishingRodPrototype.jpg)
+[Prototype Fishing Rod](http://obsoletenerd.com/images/2019-11-23-MagneticFishingRodPrototype.jpg)
 
 Once we were happy with the general idea of it I refined the design, trimming it down and smoothing all the edges and giving the reel mount a nicer shape (purely for aesthetics). I also added a little channel so that you can tie the string to the wooden handle in between the 2 reel halves, so the reels themselves clamp on it and you don't need to glue the string. This lets you replace it if you've snapped it or want a different colour later.
 
-[Final Fusion Model](MagneticFishingRodFusionModel.png)
+[Final Fusion Model](http://obsoletenerd.com/images/2019-11-23-MagneticFishingRodFusionModel.png)
 
-[3D Render 1](MagneticFishingRodRender1.png)
+[3D Render 1](http://obsoletenerd.com/images/2019-11-23-MagneticFishingRodRender1.png)
 
-[3D Render 1](MagneticFishingRodRender2.png)
+[3D Render 1](http://obsoletenerd.com/images/2019-11-23-MagneticFishingRodRender2.png)
 
 Lastly, I grabbed a random fish model from [thingiverse](https://www.thingiverse.com/thing:1702602) that my kids chose out and threw it in Tinkercad to remove the keyring part on the back.
 
-[Modifying the Fish Model](MagneticFishingRodModifiedFish.png)
+[Modifying the Fish Model](http://obsoletenerd.com/images/2019-11-23-MagneticFishingRodModifiedFish.png)
 
 We printed a few out in different colours and glued washers to their mouths as an easy way for the magnetic hooks to attach.
 
-[Gluing Magnets to the Fish](MagneticFishingRodGlueWasher.jpg)
+[Gluing Magnets to the Fish](http://obsoletenerd.com/images/2019-11-23-MagneticFishingRodGlueWasher.jpg)
 
 ... and we're done.
 
-[Completed Magnetic Fishing Rods](MagneticFishingRodComplete.jpg)
+[Completed Magnetic Fishing Rods](http://obsoletenerd.com/images/2019-11-23-MagneticFishingRodComplete.jpg)
 
 ## Required
 
